@@ -1,9 +1,17 @@
-import './App.css'
+import Hero from './components/Hero'
+import Highlights from './components/Highlights'
+import Navbar from './components/Navbar'
+import Model from './components/Model.jsx'
 
 const App = () => {
 
   return (
-   <h1 className='text-3xl underline font-bold '>Hello World</h1>
+   <main className='bg-black'>
+    <Navbar />
+    <Hero />
+    <Highlights />
+    <Model />
+   </main>
   )
 }
 
