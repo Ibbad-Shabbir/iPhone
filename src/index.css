@@ -122,3 +122,11 @@ canvas {
     @apply opacity-0 translate-y-[100px]
   }
 }
+
+::-webkit-scrollbar-track {
+  background-color: #3b3b3b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
